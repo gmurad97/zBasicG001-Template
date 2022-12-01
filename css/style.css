@@ -121,8 +121,12 @@ body{
 @media screen and (max-width: 1050px){
     .header{
         flex-direction: column;
+        padding: 0px;
     }
     .logo{
+        margin: 15px 0px;
+    }
+    .menu > ul > li{
         margin-bottom: 10px;
     }
     .main{
@@ -132,6 +136,9 @@ body{
         justify-content: center;
         align-items: center;
         margin: 0px;
+    }
+    .footer{
+        padding: 10px 0px;
     }
 }
 
@@ -147,5 +154,8 @@ body{
     }
     .content-block > img{
         width: 150px;
+    }
+    .copyright-data > p{
+        font-size: 8px;
     }
 }
